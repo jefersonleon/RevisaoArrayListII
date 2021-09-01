@@ -14,7 +14,7 @@ public class Usuario{
     private String nome;
     private String email;
     private String senha;
-    private String sexo;
+    private String fone;
 
     public int getId() {
         return id;
@@ -48,19 +48,22 @@ public class Usuario{
         this.senha = senha;
     }
 
-    public String getSexo() {
-        return sexo;
+    public String getFone() {
+        return fone;
     }
 
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
+    public void setFone(String fone) {
+        this.fone = fone;
     }
 
     @Override
     public String toString() {
-        return "Usuario{" + "id=" + id + ", nome=" + nome + ", email=" + email + ", senha=" + senha + ", sexo=" + sexo + '}';
+        return "Usuario{" + "id=" + id + ", nome=" + nome + ", email=" + email + ", senha=" + senha + ", fone=" + fone + '}';
     }
 
+
+
+    
   
     
     

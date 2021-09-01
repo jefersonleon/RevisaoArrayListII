@@ -136,9 +136,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_exitMenuItemActionPerformed
 
     private void openMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openMenuItemActionPerformed
-       FrCadastro cad = new FrCadastro();
-       desktopPane.add(cad);
-       cad.setVisible(true);
+     
     }//GEN-LAST:event_openMenuItemActionPerformed
 
     private void aboutMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aboutMenuItemActionPerformed
@@ -153,9 +151,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        FrmConsUsu cad = new FrmConsUsu();
-       desktopPane.add(cad);
-       cad.setVisible(true);
+     
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     /**
